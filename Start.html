@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,19 +12,23 @@
             font-weight: normal;
             font-style: normal;
         }
+
         body {
             font-family: Arial;
             margin: 0;
             padding: 0;
         }
+
         .box {
             height: 13px;
             width: 100%;
             background-color: #fe7d1b;
         }
+
         h1 {
             font-size: 45px;
         }
+
         .box2 {
             height: 280px;
             width: 100%;
@@ -35,9 +40,10 @@
             align-items: center;
             justify-content: center;
         }
+
         .title {
             position: relative;
-            margin-top: -200px; /* Move title up */
+            margin-top: -200px;
             display: flex;
             align-items: center;
             margin-left: 55px;
@@ -45,23 +51,32 @@
             margin-bottom: 130px;
             color: white;
         }
-/* 
-        .title > h1 {
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-        } */
+
         .textbox {
-            margin-left: 80px;
+            margin-left: 55px;
+        }
+
+        .content {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px;
         }
 
         .gif {
+            flex: 1;
             display: flex;
-            justify-content: center; /* Center horizontally */
-            align-items: center; /* Center vertically */
+            justify-content: center;
+            align-items: center;
             min-height: 100px;
         }
 
+        .private {
+            flex: 1;
+            margin-left: 20px;
+        }
     </style>
 </head>
+
 <body>
     <div class="box"></div>
     <div class="box2"></div>
@@ -72,9 +87,16 @@
     <div class="textbox">
         <h1>👋🏻 LIKELION UCSD Beginner Project에 오신 것을 환영합니다!</h1>
     </div>
-    <div class="gif">
-        <img src="https://i.imgflip.com/7bib5h.gif" alt="">
+    <div class="content">
+        <div class="gif">
+            <img src="https://i.imgflip.com/7bib5h.gif" alt="">
+        </div>
+        <div class="private">
+            <h2>이름: 나찬빈</h2>
+            <h2>학년: 3학년 (Junior)</h2>
+            <h2>전공: Mathematics-Computer Science</h2>
+        </div>
     </div>
-
 </body>
+
 </html>
