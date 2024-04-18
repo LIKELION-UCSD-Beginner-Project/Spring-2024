@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Jersey+10&family=Jersey+10+Charted&family=Jersey+25&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato";
+}
+
+.lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar {
+    background-color: antiquewhite;
+    padding-top: 20px;
+    height: 6vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    /* background-color: #ffffff; */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Adds a subtle shadow for depth */
+    display: flex;
+    justify-content: center;
+    /* Centers the navigation menu horizontally */
+    align-items: center;
+    /* Aligns the menu items vertically within the navbar */
+}
+
+.navbar nav ul {
+    list-style: none;
+    /* Removes default list styling */
+    display: flex;
+    /* Lays out the nav items in a row */
+}
+
+.navbar nav ul li {
+    padding: 10px 20px;
+    /* Adds padding around each nav item */
+}
+
+.navbar nav ul li a {
+    text-decoration: none;
+    /* Removes underline from links */
+    color: #333;
+    /* Dark grey color for text */
+    font-weight: 500;
+    /* Semi-bold font weight */
+    transition: color 0.3s;
+    /* Smooth transition for hover effects */
+}
+
+.navbar nav ul li a:hover,
+.navbar nav ul li a:focus {
+    color: #0056b3;
+    /* Changes text color on hover/focus */
+}
+
+.header {
+    background-color: rgb(147, 147, 147);
+    color: white;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../Myphoto.jpeg');
+    background-position: center 60%;
+    /* centers the image both vertically and horizontally */
+    background-size: cover;
+    /* ensures the image covers the entire header */
+    background-repeat: no-repeat;
+}
+
+#home>h1 {
+    font-size: 80px;
+}
+
+#home {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.main {
+    width: 70%;
+    margin: 0 auto;
+}
+
+#skills {
+    margin-top: 7vh;
+}
+
+#education {
+    margin-top: 7vh;
+}
+
+#experience {
+    margin-top: 7vh;
+}
+
+#projects {
+    margin-top: 7vh;
+}
+
+#contact {
+    margin-top: 7vh;
+}
