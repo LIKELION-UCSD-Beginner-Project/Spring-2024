@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: #333;
+}
+nav {
+    text-align: center; /* Center-align the navigation links */
+    background-color: #ffffff; /* Background color */
+    color: #0e0d0d; /* Text color */
+    padding: 10px 0; /* Add some padding */
+}
+
+nav a {
+    color: #fff; /* Text color for links */
+    font-weight: bold;
+    text-decoration: none; /* Remove underlines */
+    padding: 10px 20px; /* Add padding */
+    margin: 0 10px; /* Add margin */
+    border-radius: 5px; /* Add border radius */
+    background-color: #000000; /* Background color for links */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+nav a:hover {
+    background-color: #004080; /* Change background color on hover */
+}
+
+/* CSS for the container */
+.container {
+    max-width: 960px;
+    margin: auto;
+    padding: 20px;
+    display: flex; /* Use flexbox for layout */
+}
+
+/* CSS for the left column */
+.left-column {
+    flex: 0 0 30%; /* Set width of left column */
+    padding: 20px;
+}
+
+/* CSS for the right column */
+.right-column {
+    flex: 1; /* Take up remaining space */
+    padding: 20px;
+}
+
+/* CSS for the image */
+.profile-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%; /* Make the image round */
+}
+
+/* CSS for the GitHub link */
+.github-link {
+    display: block;
+    margin-top: 20px;
+}
+.linkedin-link {
+    display: block;
+    margin-top: 20px;
+}
