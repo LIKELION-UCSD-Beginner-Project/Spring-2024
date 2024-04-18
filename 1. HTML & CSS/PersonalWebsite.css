@@ -1,0 +1,30 @@
+h1{
+    color: white;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: auto;
+    padding-top: 60px;
+}
+.Intro{
+    height: 150px;  
+    background-image: url(network2.jpeg);
+    opacity: 80%;
+    margin: auto;
+}
+.Intronext{
+    display:flex; 
+    justify-content: space-between;
+    background-image: url(network1.jpeg);
+}
+h2{
+    color: white;
+    background-color: blueviolet;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    color: white;
+    background-image: url(network1.jpeg);
+    opacity: 80%;
+    margin: auto;
+}
