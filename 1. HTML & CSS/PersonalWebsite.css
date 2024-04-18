@@ -1,0 +1,26 @@
+body{
+    //background-image: url(https://www.archpaper.com/wp-content/uploads/2019/06/UCSD1.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 10%;
+}
+#home{
+    text-align: center;
+    color: black;
+    width: 200px;
+    height: 200px;
+    background-color: lightcoral;
+}
+#education{
+    font-size: 20px;
+    color: black;
+}
+#experience{
+    font-size: 20px;
+}
+#projects{
+    font-size: 20px;
+}
+#contact{
+    font-size: 20px;
+}
